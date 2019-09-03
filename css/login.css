@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	height: 0;
+}
+.logo{
+	width: 100%;
+	height: 70px;
+	background: #333231;
+}
+.logo-left{
+	
+	width: 189px;
+	height: 70px;
+	float: left;
+
+}
+.logo-right{
+	width: 265px;
+	height: 70px;
+	float: right;
+	margin-right: 150px;
+	
+}
+.logo-right a{
+	font-size: 13px;
+	color: #999999;
+	text-decoration: none;
+	line-height: 70px;
+	margin: 0 12px;
+}
+.logo-right a:hover{
+	color: #C69C6D;
+}
+.banner{
+	width: 1200px;
+	height: 888px;
+	background: #FDF8F4;
+	margin: 0 auto;
+}
+
+.img{
+	width: 800px;
+	height: 800px;
+	
+	float: left;
+}
+.bbox{ 
+	background: white;
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+	float: left;
+	margin-top:150px ;
+	box-shadow: 0px 0px 10px 1px #cccccc;
+}
+.kuang{
+	width: 400px;
+	height: 800px;
+	
+	
+}
+.input{
+	width: 310px;
+	height: 440px;
+	background: white;
+	margin: 30px auto;
+}
+.in{
+	width: 308px;
+	height: 40px;
+	border: 1px solid #cccccc;
+	outline-color: brown;
+	text-indent: 1em;
+}
+label{
+	font-size: 13px;
+	line-height: 38px;
+	color: #666666;
+}
+.font{
+	width: 1583px;
+	height: 136px;
+
+	margin: 0 auto;
+}
+.font-box{
+	width: 236px;
+	height: 136px;
+
+	float: left;
+}
+.font-box a{
+	display: block;
+	margin-left:75px ;
+	text-decoration: none;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	color: black;
+}
+.font-finaly{
+	width: 1200px;
+	height: 70px;
+
+	margin: 20px auto ;
+}
+.font-finaly p{
+	font-size: 13px;
+	line-height: 38px;
+	height: 38px;
+	float: left;
+	margin-right: 35px;
+}
+.font-finaly a{
+	font-size: 13px;
+	line-height: 38px;
+	text-decoration: none;
+	float: left;
+	margin-right: 35px;
+	height: 38px;
+	color: black;
+}
+.font-finaly a:hover{
+	text-decoration: underline;
+}
+.img6{
+	width:108px;
+	height: 40px;
+
+	margin-right: 35px;
+	float: left;
+	overflow: hidden;
+}
+.img6 img{
+	width: 100%;
+	height: 100%;
+}
+.ll{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.hou-1{
+	position: absolute;
+	left: 178px;
+	font-size: 13px;
+	line-height: 38px;
+	color: #cccccc;
+	}
+.hou{
+	color: red;
+	font-size: 12px;
+	line-height: 38px;
+	font-weight: bold;
+	float: right;
+}
+form{
+	position: relative;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/login.css" type="text/css" />
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body bgcolor="#FDF8F4">
+		<!--LOGO-->
+		<div class="logo">
+			<div class="logo-left">
+				<img src="../img/7_01.png" style="width: 100%; height: 100%;" />
+			</div>
+			<div class="logo-right">
+				<a href="siku.html">寺库首页</a>
+				<a href="">收藏寺库</a>
+				<a href="">寺库APP</a>
+			</div>
+		</div>
+		<!--banner 图-->
+		<div class="banner">
+			<div class="img">
+				<img src="../img/login.jpg" style="width: 140%; height: 100%; " />
+			</div>
+			<div class="bbox">
+			<div class="kuang">
+				<div class="input">
+					
+						<label>用户名</label>
+						<span class="hou-1">请输入手机号或者邮箱</span><span class="hou"></span>
+						<br />
+						<input type="text"  class="in"/>
+						<br />
+						<label>密码</label><span class="hou"></span>
+						<input type="password"  class="in"/>
+						<br />
+						<label>确认密码</label><span class="hou"></span>
+						<input type="password"  class="in"/>
+						<br  />
+						<input type="checkbox" / style="height: 13px;width: 13px;">
+						<span style=" font-size: 12px; line-height: 38px; color: #666666;">贵宾邀请码</span>
+						<br  />
+						<button style="height: 50px; width: 308px; background: #F19108; color: white; font-size: 16px; border: none;">立即注册</button>
+						<br  />
+						<input type="checkbox" checked="" / style="height: 13px;width: 13px;">
+						<span style=" font-size: 12px; line-height: 38px; color: #999999;">我已阅读并同意《寺库网用户注册协议》</span>
+						<br />
+						<br />
+						<span style=" font-size: 12px; line-height: 38px; color: #999999;">已经是寺库会员？</span>
+						<a href="denglu.html" target="_blank" style=" font-size: 12px; line-height: 38px; color: #F19108; text-decoration: none;">立即登录</a>
+					
+				</div>
+			</div>
+			</div>
+		</div>
+		<!--文字部分-->
+		<div class="font">
+			<div class="font-box" style="margin-left: 100px;">
+				<a href="">新手指南</a>
+				<a href="">付款方式</a>
+				<a href="">物流配送</a>
+				<a href="">售后服务</a>
+			</div>
+			<div class="font-box">
+				<a href="">寺库微博</a>
+				<a href="">友情链接</a>
+				<a href="">奢侈品热词</a>
+			</div>
+			<div class="font-box">
+				<a href="">加入寺库</a>
+				<a href="">联系我们</a>
+				<a href="">关于寺库</a>
+				<a href="">帮助中心</a>
+			</div>
+			<div class="font-box">
+				<a href="">寺库奢侈品养护</a>
+				<a href="">寺库招商</a>
+				<a href="">寺库加盟店</a>
+				
+			</div>
+		</div>
+			<div class="font-finaly">
+			<a href="" style="margin-left: -16px;">统一社会信用代码：91110102689248179</a>
+			<img src="../img/time.png" style="float: left; height: 18px; width: 18px; margin-top: 9px;" /> 
+			<p>京公必备11010102001392</p>
+			<a href="">京ICP证110119号  京ICP备0908号-3</a>
+			<a href="">ISO9001中国质量管理体系认证</a>
+		
+			
+			<br  />
+			
+			<p style="margin-left: -16px;">COPYRIGHT © 2010-2018 北京寺库商贸有限公司 版权所有</p>
+			
+			</div>
+			<div class="ll">
+			<div class="img6" style="margin-left: -16px;"> <img src="../img/f_01.jpg" /></div>
+			
+			<div class="img6"> <img src="../img/cnnic.png" /></div>
+			<div class="img6"> <img src="../img/kexin.jpg" /></div>
+			<div class="img6"> <img src="../img/f_03.jpg" /></div>
+			</div>
+		
+		
+	</div>
+	</body>
+	<script type="text/javascript">
+		var Oin=document.querySelectorAll(".in");
+		var oSpan=document.querySelectorAll(".hou");
+		var Hou=document.querySelector(".hou-1");
+	
+		var str="";
+		var atr="0";
+		var reg=/^[1-9]\d{10}|\w+@([a-z]|\d)+\.com$/;
+		var reg1=/^[a-z0-9]{5,16}$/;
+		Oin[0].onblur=function(){
+		this.style.border="1px solid red"
+		str=Oin[0].value;
+		if (reg.test(str)) {
+		Hou.innerHTML="";
+		oSpan[0].innerHTML="";
+		this.style.border="1px solid #cccccc"
+		}
+		else{
+			Hou.innerHTML="";
+		oSpan[0].innerHTML="请输入正确的手机号或者邮箱";
+
+		}
+		}
+		Oin[1].onblur=function(){
+		this.style.border="1px solid red"
+		str=Oin[1].value;
+		atr=str;
+		if (reg1.test(str)) {
+		this.style.border="1px solid #cccccc"
+		oSpan[1].innerHTML="";
+		}
+		else{
+			
+		oSpan[1].innerHTML="请输入密码！";
+
+		}
+		}
+		Oin[2].onblur=function(){
+		this.style.border="1px solid red"
+		str=Oin[2].value;
+		if (reg1.test(str)&& Oin[2].value==atr) {
+		this.style.border="1px solid #cccccc"
+		oSpan[2].innerHTML="";
+		}
+		else if(Oin[2].value==""){
+			
+		oSpan[2].innerHTML="请再次确认密码！";
+
+		}
+		else {
+			oSpan[2].innerHTML="两次输入的密码不一致，请从新输入";
+		}
+		}
+		var Btn=document.querySelector("button");
+		// console.log(Btn);
+	Btn.onclick=function(){
+		
+	for(let j=0;j<3;j++)
+	{
+		if(Oin[j].value==""){
+	
+			Oin[2].focus();
+			
+			alert("注册失败，请重新输入！");
+			break;
+			
+			// break;
+
+		}
+		
+	}
+	
+	$(function(){
+	
+		
+		function more(){
+			var phone="";
+			var passwd="";
+			phone+=($(".in").eq(0).val());
+			passwd+=($(".in").eq(1).val());
+			// st=phone;
+		$.ajax({
+
+			url:`https://www.apiopen.top/createUser?key=00d91e8e0cca2b76f515926a36db68f5&phone=${phone}&passwd=${passwd}`,
+			type:"post",
+			// dataType:"jsonp",
+			success:function(res){
+				console.log(res);
+			},
+			error:function(){
+				console.log("ajax失败");
+			}
+		})
+	}
+			$("button").click(function(){
+				console.log("10");
+				more();
+			})
+
+	})
+
+	}
+	</script>
+	
+</html>

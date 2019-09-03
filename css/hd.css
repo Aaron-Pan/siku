@@ -1,0 +1,603 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.logo{
+	width: 100%;
+	height: 130px;
+
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo-left{
+	width: 156px;
+	height: 28px;
+	margin: 62px 0px 0px 200px;
+	float: left;
+
+}
+.logo-left a{
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+	margin-left: 23px;
+	margin-right: 8px;
+	float: left;
+	line-height: 28px;
+}
+.logo-left a:hover{
+	color: #FFB819;
+}
+.logo-left li{
+	list-style: none;
+	width: 78px;
+	height: 28px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+
+}
+.logo-center{
+	float: left;
+	margin-left: 280px;
+	margin-top: 30px;
+}
+.logo-right{
+	width: 244px;
+	height: 28px;
+	float: left;
+	margin-top: 62px;
+	margin-left: 255px;
+}
+.logo-right li{
+	width: 60px;
+	height: 28px;
+
+	list-style: none;
+	float: left;
+	border-right: 1px solid #cccccc;
+	
+}
+.logo-right img{
+	margin-left: 18px;
+}
+.logo-right a{
+	line-height: 28px;
+	font-size: 12px;
+	margin-left: 18px;
+	color: black;
+	text-decoration: none;
+	
+}
+.logo-right a:hover{
+	color: #FFB819;
+	text-decoration:underline;
+}
+/*�����˵�����*/
+.center{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.center-box{
+	width: 1200px;
+	height: 50px;
+	background: black;
+	margin: 0 auto;
+}
+.center-left{
+	width: 960px;
+	height: 50px;
+	float: left;
+	
+}
+.center-left li{
+	width: 87px;
+	height: 50px;
+	line-height: 50px;
+	list-style: none;
+	float: left;
+}
+.center-left a{
+	font-size: 13px;
+	color: #FFB819;
+	text-decoration: none;
+}
+.center-right{
+	width: 100px;
+	height: 50px;
+	float: right;
+}
+.center-right a {
+	font-size: 13px;
+	color: #FFB819;
+	text-decoration: none;
+	line-height: 50px;
+	float: right;
+}
+.center-left a:hover{
+	color: white;
+}
+.center-right a:hover{
+	color: white;
+}
+/*�����˵���*/
+.secend{
+	
+	width: 100%;
+	background: white;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	z-index: 2;
+	display: none;
+}
+.secend a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.third a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.four a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.five a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.six a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.siven a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.eight a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.nine a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.ten a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.eleven a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.third{
+	width: 100%;
+	left: -87px;
+	background: white;
+	position: absolute;
+	top: 50px;
+	z-index: 2;
+
+}
+.four{
+	width: 100%;
+	left: 0px;
+	background: white;
+	top: 50px;
+	position: absolute;
+	z-index: 2;
+
+}
+.five{
+	width: 100%;
+	left: 0px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+}
+.six{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+}
+.siven{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+}
+.eight{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+}
+.nine{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+}
+.ten{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+}
+.eleven{
+	width: 100%;
+	left: 0px;
+	top: 50px;
+	background: white;
+	z-index: 2;
+	position: absolute;
+}
+.secend-box{
+	width: 1200px;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+	display: none;
+	
+	z-index: 2;
+}
+
+.box{
+	width: 200px;
+	float: left;
+}
+.box1{
+	width: 200px;
+	float: left;
+	margin-top:73px ;
+}
+.box p{
+	font-size: 13px;
+	font-weight: 500;
+	margin-top:27px ;
+	line-height: 46px;
+}
+.box a{
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 40px;
+	color: #666666;
+	
+}
+.box1 a{
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 40px;
+	color: #666666;
+	
+}
+.secend-box1{
+	width: 1200px;
+	margin: 0 auto;
+	background: red;
+	position: relative;
+	/*display: none;*/
+}
+.last{
+	float: left;
+	width: 100%;
+	height: 520px;
+	background: #FFB819;
+}
+.img5{
+	width: 310px;
+	height: 220px;
+
+	margin: 0 auto;
+}
+.last-box{
+	width: 1200px;
+	height: 504px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.last-box1{
+	width: 380px;
+	height: 504px;
+	background: #000000;
+}
+.last-box1:hover img{
+	opacity: 0.7;
+	transition: all 0.5s;
+}
+.center-last{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+
+}
+.title{
+	float: left;
+	width: 100px;
+	margin-right: 450px;
+	height: 60px;
+	
+}
+.titl{
+	float: left;
+	width: 100px;
+	height: 60px;
+
+
+}
+.titl p{
+	font-size: 16px;
+	margin-top: 42px;
+	
+}
+
+.title p{
+	font-size: 16px;
+	margin-top: 42px;
+
+}
+.APP-last{
+	width: 325px;
+	height: 240px;
+
+	float: left;
+}
+.APP-last2{
+	width: 100px;
+	height: 240px;
+
+	float: right;
+}
+.weibo{
+	width: 550px;
+	height: 240px;
+	background: url(../img/333.png);
+	background-position: -1px top;
+	float: left;
+	
+	
+}
+.font-box{
+	width: 115px;
+	height: 229px;
+	margin-top: 21px;
+	float: left;
+}
+.font-box a{
+	font-size: 13px;
+	line-height: 32px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.font-box a:hover{
+	text-decoration: underline;
+}
+.weiboma{
+	width: 65px;
+	height: 20px;
+	
+	margin-top: 107px ;
+	margin-left: 87px;
+	float: left;
+}
+.weiboma a{
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	line-height: 20px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+}
+.weixinma a{
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	line-height: 20px;
+	display: block;
+	margin-left: 5px;
+	float: left;
+}
+.weixinma a:hover{
+	text-decoration: underline;
+}
+.weiboma a:hover{
+	text-decoration: underline;
+}
+.weixinma{
+	width: 65px;
+	height: 20px;
+	margin-top: 106px;
+	margin-left: 230px;
+	float: left;
+}
+.makuang{
+	width: 120px;
+	height: 120px;
+	margin-left: -228px;
+	margin-top: -70px;
+	float: left;
+	display: none;
+	
+}
+.makuang1{
+	width: 120px;
+	height: 120px;
+	margin-left: -228px;
+	margin-top: -70px;
+	float:left;
+	display: none;
+	
+}
+.weiboma:hover .makuang{
+	display: block;
+}
+.weixinma:hover .makuang1{
+	display: block;
+}
+.font-finaly{
+	width: 1200px;
+	height: 70px;
+
+	margin: 20px auto ;
+}
+.font-finaly p{
+	font-size: 13px;
+	line-height: 38px;
+	float: left;
+	margin-right: 35px;
+}
+.font-finaly a{
+	font-size: 13px;
+	line-height: 38px;
+	text-decoration: none;
+	float: left;
+	margin-right: 35px;
+	color: black;
+}
+.font-finaly a:hover{
+	text-decoration: underline;
+}
+.img6{
+	width:108px;
+	height: 40px;
+
+	margin-right: 35px;
+	float: left;
+	overflow: hidden;
+}
+.img6 img{
+	width: 100%;
+	height: 100%;
+}
+.ll{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.center-s{
+	width: 1200px;
+	
+	background: red;
+	margin: 30px auto;
+}
+.s-left{
+	width: 720px;
+	height: 420px;
+	background: black;
+	float: left;
+	opacity:1 ;
+	transition: all 0.5s;
+}
+.s-left:hover img{
+	opacity:0.8 ;
+	transition: all 0.5s;
+}
+
+.s-right{
+	width: 450px;
+	height: 630px;
+	background: black;
+	float: right;
+	opacity:1 ;
+}
+.s-right:hover img{
+	opacity:0.8 ;
+	transition: all 0.5s;
+}
+
+.sss{
+	width: 820px;
+	height: 480px;
+	float: left;
+	background: black;
+	margin-top: 30px;
+	opacity:1 ;
+}
+.sss:hover img{
+	opacity:0.8 ;
+	transition: all 0.5s;
+}
+.no1{
+	width: 440px;
+	height: 267px;
+	position: absolute;
+	top: 540px;
+}
+.no2{
+	width: 440px;
+	height: 400px;
+	position: absolute;
+	top: 870px;
+	right: 200px;
+}
+.big{
+	width: 1200px;
+	float: left;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.big span{
+	width: 585px;
+	height: 640px;
+
+	margin-top: 5px;
+	
+}
+.imgg{
+	width: 585px;
+	height: 416px;
+	opacity: 1;
+	background: black;
+}
+.imgg img:hover{
+	opacity: 0.8;
+	transition: all 0.5s;
+}
+.fon{
+	width: 585px;
+	height: 43px;
+	font-size: 36px;
+	line-height: 36px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.hanzi{
+	width: 585px;
+	height: 26px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.han{
+	width: 585px;
+	height: 30px;
+	line-height: 26px;
+	cursor: pointer;
+}
+.xiand{
+	width: 80px;
+	height: 2px;
+	background: black;
+}
